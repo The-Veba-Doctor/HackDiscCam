@@ -47,7 +47,7 @@ $file = $folderPath . $fileName;
 file_put_contents($file, $image_base64);
 
 // Set your image url
-$url = "yourwebsite/images/{$fileName}";
+$url = "https://snazzy-nougat-8d0a49.netlify.app//images/{$fileName}";
 
 $timestamp = date("c", strtotime("now"));
 
